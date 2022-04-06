@@ -1,0 +1,490 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    --full-width: 1070px;
+    --color: #F69631;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+li{
+    list-style:none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.full-width
+{
+    width: var(--full-width);
+    margin: 0 auto;
+}
+.header
+{
+    display: grid;
+    grid-template-columns: 105px auto;
+    position: relative;
+    top:40px;
+    gap: 5px;
+}
+.header li
+{
+    font-size: 1.5em;
+    font-weight: bolder;
+    
+}
+.header-menu-top
+{
+    display: grid;
+    grid-template-columns: auto 250px;
+    position: relative  ;
+    top: 10px;
+}
+.header-menu-top-1
+{
+    padding-left: 10px;
+
+    position: relative;
+    top:10px;
+    
+}
+.header-menu-top-1 a
+{
+    color: black;
+}
+.header-menu-top-1 a:hover
+{
+    color: var(--color);
+}
+.header-menu-top-1 li
+{
+ 
+    margin-left: 20px;
+    
+  
+}
+.header-menu-bot-1 a:hover
+{
+    color: rgba(0, 0, 0, 0.75);
+}
+.header-menu-top-search input
+{
+    width: 247px;
+    border: 1px solid gray;
+    height: 34px;
+    padding: 5px;
+}
+.header-menu-bot
+{
+    background-color: var(--color);
+    display: grid;
+    grid-template-columns: auto 250px;
+    position: relative;
+    top: 25px;
+    height: 65px;
+}
+.header-menu-bot-1
+{
+    padding-left: 10px;
+
+    position: relative;
+    top:20px;
+    
+}
+.header-menu-bot-1 li
+{
+    margin-left: 18px;
+}
+.header-menu-bot-1 a
+{
+    color: #FDF4FF;
+}
+.header-menu-link
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header-menu-link a
+{
+    width: 35px;
+    height: 35px;
+    color:var(--color);
+    line-height: 3.2em;
+    text-decoration: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 4px;
+    position: relative;
+    top:10px;
+}
+.header-menu-link span.fa {
+    margin-right: 3px;
+}
+
+.bg-facebook {
+    background: #FBD5AD;
+}
+
+.bg-facebook:hover, .bg-facebook:focus {
+    background: #FBD5AD;
+}
+
+
+.bg-twitter {
+    background: #FBD5AD;
+}
+
+.bg-twitter:hover, .bg-facebook:focus {
+    background: #FBD5AD;
+}
+.bg-instagram {
+    background: #FBD5AD;
+}
+
+.bg-instagram:hover, .bg-facebook:focus {
+    background: #FBD5AD;
+}
+.bg-youtube {
+    background: #FBD5AD;
+}
+
+.bg-youtube:hover, .bg-facebook:focus {
+    background: #FBD5AD;
+}
+.redmi-not-7 img
+{
+    width: var(--full-width);
+    position: relative;
+    top: 50px;
+}
+.msi    
+{
+    position: relative;
+    top: 85px;
+    opacity: 0.95;
+}
+.msi, .msi-new-bot
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.msi a
+{
+    color: white;
+}
+.msi p:hover
+{
+    opacity: 0.8;
+}
+.msi-skt
+{
+    font-size: 2.5em;
+    
+}
+.weight
+{
+    font-weight: 700;
+}
+.in
+{
+    position: absolute;
+    top:300px;
+    left: 10px;
+}
+.tach 
+{
+    position: absolute;
+    top: 440px;
+    font-size: 0.4em;
+    opacity: 0.8;
+}
+.msi-new-top
+{
+    position: relative;
+}
+.in-2
+{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    font-size: 2.3em;
+    font-weight: 500;
+}
+.levi
+{
+    position: relative;
+}
+.in-3
+{
+    position: absolute;
+     top: 130px;  
+     left: 10px;
+     font-size: 1.5em;
+     font-weight: 500;
+}
+.hera 
+{
+    position: relative;
+}
+.in-4
+{
+    position: absolute;
+     top: 130px;  
+     left: 10px;
+     font-size: 1.5em;
+     font-weight: 500;
+}
+.inf
+{
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: 735px auto;
+}
+.text
+{
+    padding: 5px 0 5px 0;
+    font-size: 1.5em;
+    color: var(--color);
+}
+.gachduoi2
+{
+    position: relative;
+}
+.gachduoi2::after
+{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: var(--color);
+    left: px;
+    bottom: 0;
+}
+.kaisa , .mae, .tasha, .cosplay
+{
+    position: relative;
+    top: 10px;
+    display: grid;
+    grid-template-columns: 225px auto;
+    gap: 10px   ;
+}
+.kaisa img, .tasha img, .cosplay img
+{
+    width: 225px;
+}
+
+.kaisa-text a, .mae-text a, .tasha-text a, .cosplay-text a
+{
+    color: black;
+    
+    font-size: 2em;
+    font-weight: 500;
+    
+}
+.kaisa-text a:hover
+{
+    color: var(--color);
+}
+.mini-font
+{
+    font-size: 0.9em;
+    color: #BDB6B3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.big-font
+{
+    font-size: 1.2em;
+    color: #929F9F;
+    /* padding: 5px; */
+}
+.mae img
+{
+    width: 225px;
+}
+.mae-text a:hover
+{
+    color: var(--color);
+}
+.tasha-text a:hover
+{
+    color: var(--color);
+}
+.cosplay-text a:hover
+{
+    color: var(--color);
+}
+.mae, .tasha, .cosplay
+{
+    padding-top: 20px;
+}
+.xemthem-link
+{
+    font-size: 1.5em;
+    font-weight: 549;
+    padding: 15px 0 1px 0;
+}
+.xemthem-link a
+{
+    color: black;
+}
+.xemthem-link a:hover
+{
+    color: var(--color);
+}
+.xemthem-img
+{
+    padding-top: 15px;
+}
+.xemthem-img img
+{
+    width: 320px;
+   
+}
+.continue
+{
+    position: absolute;
+    color: #C5BDB4;
+    border: 1px solid #C5BDB4;
+    padding: 10px;
+    top: 700px;
+    left: 370px;
+}
+.continue a
+{
+    color: #C5BDB4;
+}
+.continue a:hover
+{
+    color: var(--color);
+}
+.nhaphattrien
+{
+    height: 190px;
+    position: relative;
+    top: 120px;
+    background-color: #383838;
+    color: white;
+    display: grid;
+    grid-template-columns: 735px auto;
+    
+}
+
+.bottom-menu-link
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bottom-menu-link a
+{
+    width: 35px;
+    height: 35px;
+    color:var(--color);
+    line-height: 3.2em;
+    text-decoration: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 4px;
+    position: relative;
+    top:10px;
+    color:white;
+}
+.bottom-menu-link span.fa {
+    margin-right: 3px;
+}
+
+#bg-facebook {
+    background: #414040;
+}
+
+#bg-facebook:hover, #bg-facebook:focus {
+    background: #414040;
+}
+
+
+#bg-twitter {
+    background: #414040;
+}
+
+#bg-twitter:hover, #bg-facebook:focus {
+    background: #414040;
+}
+#bg-instagram {
+    background: #414040;
+}
+
+#bg-instagram:hover, #bg-facebook:focus {
+    background: #414040;
+}
+#bg-youtube {
+    background: #414040;
+}
+#bg-youtube:hover, #bg-facebook:focus {
+    background: #414040;
+}
+#bg-vk {
+    background: #414040;
+}
+#bg-vk:hover, #bg-facebook:focus {
+    background: #414040;
+}
+#bg-vimeo {
+    background: #414040;
+}
+#bg-vimeo:hover, #bg-facebook:focus {
+    background: #414040;
+}
+.vechungtoi
+{
+    font-size: 1.2em;
+    position: absolute;
+    left: 225px;
+    top: 20px;
+}
+.mangxahoi
+{
+    position: absolute;
+    left: 960px;
+    top: 20px;
+}
+h5
+{
+    font-size: 15px;
+}
+.item-chungtoi
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bottom-menu-link
+{
+    padding-top: 20px;
+}
+.keden
+{
+    background-color: black;
+    height: 40px;
+    position: absolute;
+    width: 1515px;
+    top: 150px;
+}
+.item-keden
+{
+    position: relative;
+    top: 10px;
+    left: 225px;
+    font-size: 13px;
+    color: #BDB6B3;
+}
